@@ -1,0 +1,19 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+#mot-img {
+  border: 5px solid white;
+}
+#par {
+  margin-top: 100px;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  /* width: 50%; */
+}
