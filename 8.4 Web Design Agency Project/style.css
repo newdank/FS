@@ -19,7 +19,7 @@ footer {
   color: midnightblue;
 }
 
-.tile-image {
+/* .tile-image {
   height: 200px;
   float: left;
   margin-right: 50px;
@@ -61,4 +61,48 @@ footer {
     display: inline;
     object-fit: cover;
   }
+} */
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 50px;
+}
+.card {
+  width: 45%;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+@media (min-width: 280px) and (max-width: 500px) {
+  .logo {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 3.5rem;
+  }
+  .creative {
+    color: midnightblue;
+  }
+  .left {
+    width: 100%;
+    display: block;
+  }
+  .right {
+    width: 100%;
+    display: block;
+  }
+  /* footer {
+    display: inline;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  } */
 }
