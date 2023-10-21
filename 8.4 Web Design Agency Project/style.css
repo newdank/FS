@@ -31,15 +31,34 @@ footer {
 .right {
   float: right;
 }
-.left > img {
-  width: 25%;
-  height: 25%;
+.card {
+  width: 50%;
 }
 
-.right > img {
-  width: 25%;
-  height: 25%;
-}
 .creative {
   color: blue;
+}
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
 }
