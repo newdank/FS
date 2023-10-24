@@ -11,85 +11,91 @@
       font-family: 'Sono', sans-serif;
     }
 
+
+    /* THIS IS FOR flex - row. */
     /* .pricing-container{
       display: flex;
-      flex-direction: column;
-      gap:3rem;
-      font-weight: bold;
       justify-content: center;
       align-items: center;
-    } */
-
-    /* .pricing-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      gap: 3rem;
+      gap: 3.5rem;
       font-weight: bold;
     }
 
     .pricing-plan{
-      background-color: grey;
-    }
-    .pricing-plan {
-      flex: 1;
+      flex:1;
       max-width: 400px;
+      background-color: #f2f2f2;
+      text-align: center;
       padding: 20px;
-      background-color: #f2f2f2;
-      border-radius: 5px;
-      text-align: center;
-    }
-    button{
-      text-decoration: none;
-    } */
-
-    .pricing-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      gap: 2rem;
     }
 
-    .pricing-plan {
-      flex: 3;
-      max-width: 400px;
-      padding: 15px;
-      background-color: #f2f2f2;
-      border-radius: 5px;
-      text-align: center;
+    .plan-title{
+      font-size: 2rem;
     }
 
-    .plan-title {
-      font-size: 24px;
-      font-weight: bold;
-      margin-bottom: 10px;
+    .plan-price{
+      font-size: 3rem;
     }
 
-    .plan-price {
-      font-size: 48px;
-      font-weight: bold;
-      margin-bottom: 10px;
-    }
 
-    .plan-features {
+    .plan-features{
       list-style: none;
-      padding: 0;
-      margin: 0;
     }
 
     .plan-features li {
       margin-bottom: 20px;
     }
 
-    .plan-button {
-      padding: 10px;
-      background-color: #ff6600;
-      color: #fff;
+    
+
+    .plan-button{
+      background-color: orange;
       border-radius: 5px;
-      border: none;
+padding: 10px
+    } */
+
+    /* This is for flex-column */
+
+    .pricing-container{
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 3.5rem;
+      font-weight: bold;
+    }
+
+    .pricing-plan{
+      flex:2;
+      max-width: 400px;
+      background-color: #f2f2f2;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .plan-title{
+      font-size: 2rem;
+    }
+
+    .plan-price{
+      font-size: 3rem;
+    }
+
+
+    .plan-features{
+      list-style: none;
+    }
+
+    .plan-features li {
+      margin-bottom: 20px;
+    }
+
+    
+
+    .plan-button{
+      background-color: orange;
+      border-radius: 5px;
+padding: 10px
     }
 
     
