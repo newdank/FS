@@ -57,22 +57,33 @@ padding: 10px
     /* This is for flex-column */
 
     .pricing-container{
-      display: flex;
-      flex-direction: column;
+      display: inline-flex;
+      flex-direction: column;  
       justify-content: center;
       align-items: center;
       height: 100vh;
       gap: 2rem;
       font-weight: bold;    }
 
-    .pricing-plan{
+    /* .pricing-plan{
       flex: 1;
       max-width: 400px;
       background-color: #f2f2f2;
       text-align: center;
       padding: 20px;
-      /* height: 400vh; */
-    }
+      height: 400vh;
+    } */
+
+    .pricing-plan {
+    flex: 1;
+    max-width: 400px;
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 20px;
+    min-height: 10px; /* Adjust this value based on your design preference */
+}
+
+
     .pricing-plan {
     height: 400px; /* Adjust this value based on your design preference */
 } 
@@ -88,11 +99,14 @@ padding: 10px
 
     .plan-features{
       list-style: none;
+      flex-grow:1;
     }
 
     .plan-features li {
       margin-bottom: 20px;
     }
+
+    
 
     
 
