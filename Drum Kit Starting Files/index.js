@@ -3,18 +3,20 @@
 // }
 var drumButtons = document.querySelectorAll(".drum").length;
 
-// for (var i = 0; i < drumButtons; i++) {
-//   document.querySelectorAll(".drum")[i].addEventListener("click", function () {
-//     var buttonClickSound = this.innerHTML;
-//     makeSound(buttonClickSound);
-//   });
-// }
+for (var i = 0; i < drumButtons; i++) {
+  document.querySelectorAll(".drum")[i].addEventListener("click", function () {
+    var buttonClickSound = this.innerHTML;
+    makeSound(buttonClickSound);
+    // makeAnimation(buttonClickSound);
+  });
+}
 document.addEventListener("keypress", function (event) {
   makeSound(event.key);
+  // makeAnimation(event.key);
 });
-document.addEventListener("click", function (newEvent) {
-  makeSound(newEvent.key);
-});
+// document.addEventListener("click", function (newEvent) {
+//   makeSound(newEvent.key);
+// });
 
 function makeSound(key) {
   switch (key) {
@@ -84,4 +86,8 @@ function makeSound(key) {
 //           break;
 //       }
 //     });
+// }
+
+// function makeAnimation(currentKey) {
+
 // }
